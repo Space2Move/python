@@ -9,7 +9,7 @@ myTurtle.speed(500)
 myTurtle.width(10)
 myTurtle.penup()
 myTurtle.setpos(-200,-200)
-dofill = False
+dofill = True
 
 def rectangle(x, y, line, fillcolor):
     myTurtle.hideturtle()
@@ -36,18 +36,18 @@ def rectangle(x, y, line, fillcolor):
     else:
         z = 3
 def main():
-    for i in range(20):
+    for i in range(5):
         rectangle(x, y, "black", "yellow")
-        # rectangle(x, y, "black", "blue")
-        # rectangle(x, y, "black", "red")
-        # rectangle(x, y, "black", "green")
+        rectangle(x, y, "black", "blue")
+        rectangle(x, y, "black", "red")
+        rectangle(x, y, "black", "green")
     myTurtle.right(90)
     myTurtle.setpos(-200, 190)
-    for i in range(20):
+    for i in range(5):
         rectangle(x, y, "black", "yellow")
-        # rectangle(x, y, "black", "blue")
-        # rectangle(x, y, "black", "red")
-        # rectangle(x, y, "black", "green")
+        rectangle(x, y, "black", "blue")
+        rectangle(x, y, "black", "red")
+        rectangle(x, y, "black", "green")
     win.listen()
     win.exitonclick()
 
