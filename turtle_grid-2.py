@@ -4,7 +4,7 @@ myTurtle = turtle.Turtle()
 win = turtle.Screen()
 x = 390
 y = 10
-myTurtle.speed(500)
+myTurtle.speed(400)
 myTurtle.penup()
 myTurtle.pensize(1)
 myTurtle.hideturtle()
